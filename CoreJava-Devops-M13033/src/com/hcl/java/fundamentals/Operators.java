@@ -60,8 +60,17 @@ public class Operators {
 		System.out.println(">=: "+(value1>=value2));
 		System.out.println("==: "+(value1==value2));
 		System.out.println("!=: "+(value1!=value2));
-		System.out.println();
-		System.out.println();
+		
+		System.out.println("\n");
+		System.out.println("-----------------------");
+		System.out.println("Logical operator");
+		System.out.println("-----------------------");
+		
+		boolean v1=true;
+		boolean v2=false;
+		
+		System.out.println("Logical AND: "+(v1 && v2));
+		System.out.println("Logical AND: "+(v1 || v2));
 	}
 
 }
